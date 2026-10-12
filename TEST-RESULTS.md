@@ -17,7 +17,7 @@ Results are averages of three runs. Values are write/read in decimal MB/s.
 | Baseus USB 2.0 USB-A to USB-C cable via the same Satechi hub path | 44.5 | 31.4 |
 | Samsung USB-A to USB-C cable via BenQ EX2710U monitor USB-A port | 611.7 | 333.6 |
 
-Note: 1,407.1 MB/s is about 11.3 Gbps, above the 10 Gbps limit of the T7’s USB 3.2 Gen 2 link, so this write figure likely includes caching or a measurement artifact and should not be read as the drive’s real write speed.
+Note: the direct-connection write figures (1,407.1 and 1,412.3 MB/s, about 11.3 Gbps) are above the 10 Gbps limit of the T7’s USB 3.2 Gen 2 link, so they likely include caching or a measurement artifact and should not be read as the drive’s real write speed.
 
 ### Interpretation
 
