@@ -89,3 +89,7 @@ This project provides a repeatable testing approach, but results from different 
 Created for **DailyTweak** to document practical storage performance testing on macOS.
 
 Repository: [dailytweak-external-ssd-speed-test](https://github.com/procuthq/dailytweak-external-ssd-speed-test)
+
+## License
+
+Released under the [MIT License](./LICENSE). Provided as is, without warranty. Use it at your own risk; see Safety and Limitations above.
