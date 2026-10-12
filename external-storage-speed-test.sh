@@ -1,4 +1,3 @@
-f=$(mktemp /tmp/ssdtest-script.XXXXXX); cat > "$f" <<'SSDSCRIPT_END'
 #!/bin/bash
 #
 # ssd-speedtest.sh - sequential write/read speed test for external drives and SD cards (macOS)
@@ -569,5 +568,3 @@ printf '%s\n' "$RESULTS_TEXT"
 
 echo
 echo "Report saved: $REPORT"
-SSDSCRIPT_END
-cd ~/Desktop && bash "$f"; rm -f "$f"
