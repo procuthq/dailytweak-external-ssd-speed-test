@@ -517,7 +517,7 @@ CLEANED=1
 # ---------------------------- results ----------------------------------------
 LINK_NOTE=""
 if awk -v a="$LINK_GBPS" -v b="$CABLE_GBPS" 'BEGIN{exit !(a>0 && a<b)}'; then
-  LINK_NOTE="NOTE: negotiated link ($LINK) is slower than the cable rating you entered ($CABLE_GBPS Gbps). Check the port, cable and adapters."
+  LINK_NOTE="NOTE: the negotiated link ($LINK) is below the cable rating you entered ($CABLE_GBPS Gbps). This is expected when the drive supports less than the cable does. Check the port, cable and adapters only if the drive is rated higher than the negotiated link."
 fi
 
 build_results() {
