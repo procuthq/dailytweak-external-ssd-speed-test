@@ -70,7 +70,7 @@ Short tests may primarily reflect a drive's cache performance rather than its su
 - **Verify the target volume before starting.** The test writes data to the selected volume.
 - Keep sufficient free space available. The script calculates a test-size limit and retains a safety margin, but you should still review the displayed values.
 - Do not disconnect the device while the test is running.
-- Do not interrupt the test unless necessary. The script removes its test files if you press Ctrl-C. If the Mac loses power or the drive is unplugged mid-test, delete the hidden '.ssd-speedtest.*' folder on the drive.
+- Do not interrupt the test unless necessary. The script removes its test files if you press Ctrl-C. If the Mac loses power or the drive is unplugged mid-test, delete the hidden ".ssd-speedtest.*" folder on the drive.
 - The script is intended for sequential transfer testing, not endurance, TBW, temperature, or long-term reliability testing.
 - Reported connection details are based on information available from macOS and may not always identify the exact negotiated storage-device link.
 - The cable questions are optional and are skipped for the built-in SD slot.
